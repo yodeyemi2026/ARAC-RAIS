@@ -1,0 +1,29 @@
+# R package dependencies for RDPM v1.7
+# Tested on R 4.4.1
+# Install all packages by running: RDPM v1.7/RDPM - Installer.R
+
+readxl==1.4.5
+openxlsx==4.2.8.1
+plyr==1.8.9
+abind==1.4.8
+truncnorm==1.0.9
+tmvtnorm==1.7
+diagram==1.6.5
+ff==4.5.2
+DBI==1.2.3
+odbc==1.6.4.1
+tidyverse==2.0.0
+reshape==0.8.10
+reshape2==1.4.5
+data.table==1.17.8
+ggplot2==4.0.1
+compiler==4.4.1
+stringr==1.6.0
+writexl==1.5.4
+plotly==4.11.0
+htmlwidgets==1.6.4
+
+# Note: odbc requires a system-level ODBC driver for SQL Server connections.
+# On Windows: install Microsoft ODBC Driver for SQL Server.
+# On macOS/Linux: install unixODBC and the appropriate driver.
+# Desktop mode (no SQL connection) does not require the ODBC driver.
